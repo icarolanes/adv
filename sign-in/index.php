@@ -44,7 +44,7 @@
 
 <body class="text-center">
   <main class="form-signin">
-  <?php
+    <?php
 include($pagina);
   ?>
   </main>

@@ -1,11 +1,10 @@
 <form action="novo_acesso.php" method="post">
-  <img hidden class="mb-4" src="../img/peiu_escuro.png" alt="" width="300" height="90">
   <h1 class="h3 mb-3 fw-normal">Advocacia</h1>
   <?php
       session_start();
       if (isset($_SESSION['loginErro'])) {
-        echo $_SESSION['loginErro'];
-        session_destroy();
+          echo $_SESSION['loginErro'];
+          session_destroy();
       }
       ?>
   <div class="form-floating">
